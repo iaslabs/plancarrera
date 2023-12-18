@@ -1,0 +1,329 @@
+[
+    {
+        "id":1,
+        "nombre":"HTML y CSS",
+        "active":true,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Conocer la etiqueta LABEL y saber implementarlas"},
+                {"id":2,"checked":true,"nombre":"Conocer la etiqueta INPUT(text, number, checkbox) saber implementarlas"},
+                {"id":3,"checked":true,"nombre":"Conocer la etiqueta DIV saber implementarlas"},
+                {"id":4,"checked":true,"nombre":"Conocer la etiqueta P y saber implementarlas"},
+                {"id":5,"checked":true,"nombre":"Conocer CSS Basica (color, background,font, marging, padding)"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Tener la capacidad de hacer formularios basicos y realizar maquetación básica"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Saber de maquetación avanzada (combinando CSS, float, positions)"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear una pagina completa con CSS, HTML y Js"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "nombre":"JavaScript y Typecript",
+        "active":false,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [
+                {"id":1,"checked":true,"nombre":"Saber implementar los tipos de variables(var, const, let)"},
+                {"id":2,"checked":true,"nombre":"blucles basicos"},
+                {"id":3,"checked":true,"nombre":"tipos de datos"},
+                {"id":4,"checked":true,"nombre":"sentencias de control (if, else, switch)"},
+                {"id":5,"checked":true,"nombre":"operaciones matemáticas"},
+                {"id":6,"checked":true,"nombre":"funciones básicas"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [
+                    {"id":1,"checked":false,"nombre":"Saber las reglas de nombramientos de variables"},
+                    {"id":2,"checked":false,"nombre":"Conocer y saber utilizar los tipos de datos primarios"},
+                    {"id":3,"checked":false,"nombre":"Saber que es un objeto y como implementarlos"},
+                    {"id":4,"checked":false,"nombre":"Saber trabajar con arreglos"},
+                    {"id":5,"checked":false,"nombre":"Saber que es el Operador ternario y como utilizarlo"},
+                    {"id":6,"checked":false,"nombre":"Saber como crear una Función de flecha y como utlizarla"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":" Saber trabajar con JSon"},
+                    {"id":2,"checked":false,"nombre":"TypeOf Operator "},
+                    {"id":3,"checked":false,"nombre":"saber como implementar Bucles avanzados"},
+                    {"id":4,"checked":false,"nombre":"Rest Parameters"},
+                    {"id":5,"checked":false,"nombre":"This Keyword lo básico"},
+                    {"id":6,"checked":false,"nombre":"Saber de manejo del DOM Básico"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Saber diferenciar entre Global Scope,Function Scope y Block Scope"},
+                    {"id":1,"checked":false,"nombre":"Built-in objects(Number,Math,Date,String,Error,Function,Boolean)"},
+                    {"id":1,"checked":false,"nombre":"Manejo de coleciones básica"},
+                    {"id":1,"checked":false,"nombre":"Equality Comparisons"},
+                    {"id":1,"checked":false,"nombre":"This Keyword lo avanzado"},
+                    {"id":1,"checked":false,"nombre":"Manejo del DOM avanzado"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":3,
+        "nombre":"junior angular",
+        "active":false,
+        "nivel":"Junior",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript"},
+                {"id":2,"checked":false,"nombre":"Capacidad de crear un formulario sencillo utilizando ngModel"},
+                {"id":3,"checked":false,"nombre":"saber implementar @input,@output"},
+                {"id":4,"checked":false,"nombre":"saber implementar los Pipes de angular(date, Currecy, Decimal)"},
+                {"id":5,"checked":false,"nombre":"comoce y utiliza los comandos básicos de Angular CLI"}]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente"},
+                    {"id":1,"checked":false,"nombre":"Saber realizar interpolación de texto"},
+                    {"id":1,"checked":false,"nombre":"Conocer los ciclos de vida de angular y saberlos implementar"}]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados"},
+                    {"id":1,"checked":false,"nombre":"Saber crear, implementar y trabajar con observers"},
+                    {"id":1,"checked":false,"nombre":"saber implementar ngTemplate, NgSwitch, ngModule"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar Router Module"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar Formularios Reactivos"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar todos los ciclos de vida"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild"},
+                    {"id":1,"checked":false,"nombre":"Saber injectar depencias de servicios"},
+                    {"id":1,"checked":false,"nombre":"Saber consumir API´s"},
+                    {"id":1,"checked":false,"nombre":"Saber implementar la detección de cambios"},
+                    {"id":1,"checked":false,"nombre":"Saber utilizar RouterLink"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":4,
+        "nombre":"HTML y CSS",
+        "active":false,
+        "nivel":"Middle",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":5,
+        "nombre":"JavaScript y Typecript",
+        "active":false,
+        "nivel":"Middle",
+        "niveles":[
+            {
+                "id":1,
+                "nombre":"Bajo",
+                "capacidades": [  
+                {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript"}
+            ]
+            },
+            {
+                "id":2,
+                "nombre":"Básico",
+                "capacidades": [ 
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente"}
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Alto",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados"}
+                ]
+            },
+            { "id":4,
+                "nombre":"Superior",
+                "capacidades":[
+                    {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild"}
+                ]
+            }
+        ]
+    },
+    {
+            "id":6,
+            "nombre":"middle angular",
+            "active":false,
+            "nivel":"Middle",
+            "niveles":[
+                {
+                    "id":5,
+                    "nombre":"Bajo",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Debe tener claro los conceptos de programación reactiva, su funcionamiento y saber implentarlo, en un desarrollo utilizando RxJs"},
+                        {"id":2,"checked":false,"nombre":"Saber implementar restricción de acceso rutas utlizando Guards"},
+                        {"id":3,"checked":false,"nombre":"Saber implementar aplicaciones con buen performace aplicando lazy Loading"},
+                        {"id":4,"checked":false,"nombre":"buena manejo del DOM utiliznado directivas"}
+                    ]
+                },
+                {
+                    "id":6,
+                    "nombre":"Básico",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad para realizar pruebas unitarias de codigo propio o de otros utilizando Jasmine/karma"}
+                    ] 
+                },
+                {
+                    "id":7,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer los interceptores y saberlos implementar"},
+                    {"id":2,"checked":false,"nombre":"Conocer que son los proxys y saberlos implementar"} 
+                    ] 
+                },
+                {
+                    "id":8,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer RxJS Subjects y saberlo implementar"}
+                    ] 
+                }
+            ]
+        },
+        {
+            "id":7,
+            "nombre":"JavaScript y Typecript",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":1,
+                    "nombre":"Bajo",
+                    "capacidades": [  
+                    {"id":1,"checked":true,"nombre":"Capacidad para poder crear un componente Front (Angular), el componente debe de tener HTML, CSS y la logica en Typescript"}
+                ]
+                },
+                {
+                    "id":2,
+                    "nombre":"Básico",
+                    "capacidades": [ 
+                        {"id":1,"checked":false,"nombre":"Capacidad de utilizar ngIfngFor en la creación de un componente"}
+                    ]
+                },
+                {
+                    "id":3,
+                    "nombre":"Alto",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad de crear Pipes personalizados"}
+                    ]
+                },
+                { "id":4,
+                    "nombre":"Superior",
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Capacidad de utilizar @viewchild"}
+                    ]
+                }
+            ]
+        },
+        {
+            "id":8,
+            "nombre":"senior angular",
+            "active":false,
+            "nivel":"Senior",
+            "niveles":[
+                {
+                    "id":9,
+                    "nombre":"Bajo", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Debe tener buenas prácticas de organización de módulos, performance y creación de servicios"},
+                        {"id":2,"checked":false,"nombre":"Saber implementar una arquitectura limpia en angular"},
+                        {"id":3,"checked":false,"nombre":"Conocer las librerías, clonning en Angular"}
+                    ]
+                },
+                {
+                    "id":10,
+                    "nombre":"Básico", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Conocer  NgRx y saberlo implementar"}
+                    ]
+                },
+                {
+                    "id":11,
+                    "nombre":"Alto", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber de Performance"},
+                        {"id":1,"checked":false,"nombre":"optimización de codigo"},
+                        {"id":1,"checked":false,"nombre":"saber generar archivos de compilación"}
+                    ]
+                },
+                {
+                    "id":12,
+                    "nombre":"Superior", 
+                    "capacidades":[
+                        {"id":1,"checked":false,"nombre":"Saber de Server-side rendering"}
+                    ]
+                }
+            ]
+        }
+    ]
