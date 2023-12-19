@@ -9,11 +9,11 @@
                 "id":1,
                 "nombre":"Bajo",
                 "capacidades": [  
-                {"id":1,"checked":true,"nombre":"Conocer la etiqueta LABEL y saber implementarlas"},
-                {"id":2,"checked":true,"nombre":"Conocer la etiqueta INPUT(text, number, checkbox) saber implementarlas"},
-                {"id":3,"checked":true,"nombre":"Conocer la etiqueta DIV saber implementarlas"},
-                {"id":4,"checked":true,"nombre":"Conocer la etiqueta P y saber implementarlas"},
-                {"id":5,"checked":true,"nombre":"Conocer CSS Basica (color, background,font, marging, padding)"}
+                {"id":1,"checked":true,"nombre":"Conocer la etiqueta LABEL y saber implementarlas","cursos":"1"},
+                {"id":2,"checked":false,"nombre":"Conocer la etiqueta INPUT(text, number, checkbox) saber implementarlas","cursos":"1"},
+                {"id":3,"checked":false,"nombre":"Conocer la etiqueta DIV saber implementarlas","cursos":"1"},
+                {"id":4,"checked":false,"nombre":"Conocer la etiqueta P y saber implementarlas","cursos":"1"},
+                {"id":5,"checked":false,"nombre":"Conocer CSS Basica (color, background,font, marging, padding)","cursos":"1"}
             ]
             },
             {
