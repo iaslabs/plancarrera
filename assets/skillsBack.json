@@ -95,12 +95,8 @@
                 "id":1,
                 "nombre":"Spring Bajo",
                 "capacidades": [  
-                    {"id":1,"checked":true,"nombre":"Habilidad de enternder que es una Clase","cursos":"4"},
-                    {"id":2,"checked":false,"nombre":"Habilidad de enternder que es un objeto","cursos":"4"},
-                    {"id":3,"checked":false,"nombre":"Habilidad de enternder que es una variable","cursos":"4"},
-                    {"id":4,"checked":false,"nombre":"Habilidad de enternder que es un parametro","cursos":"4"},
-                    {"id":5,"checked":false,"nombre":"Conocer y saber implementar las estructuras basicas de control","cursos":"4"},
-                    {"id":6,"checked":false,"nombre":"Conocer y saber implementar las estructuras de los bucles","cursos":"4"}
+                    {"id":1,"checked":true,"nombre":"Saber crear el proyecto en spring boot","cursos":"4"},
+                    {"id":2,"checked":false,"nombre":"Spring Boot Starters","cursos":"4"}
             ]
             },
             
@@ -108,34 +104,33 @@
                 "id":2,
                 "nombre":"Spring Básico",
                 "capacidades": [ 
-                    {"id":1,"checked":true,"nombre":"Entender claramente los conceptos mas avazandos OPP (Polimorfismo, herencia, encaposulamiento y abtración)","cursos":"4"},
-                    {"id":2,"checked":true,"nombre":"Conocer y saber implementar el Patrón de diseño MVC","cursos":"4"},
-                    {"id":3,"checked":true,"nombre":"Saber las Estructuras de datos simples (arreglos y Listas)","cursos":"4"},
-                    {"id":4,"checked":true,"nombre":"Conoce el entorno de desarrollo en Java (jdk, jre)","cursos":"4"},
-                    {"id":5,"checked":true,"nombre":"sentencias de control en ciclos (continue, break)","cursos":"4"},
-                    {"id":6,"checked":true,"nombre":"operaciones con bigdecimal","cursos":"2"},
-                    {"id":7,"checked":true,"nombre":"operaciones matematicas","cursos":"2"},
-                    {"id":8,"checked":true,"nombre":"Conocer y saber implementar las clases wrapper","cursos":"4"}
+                    {"id":1,"checked":true,"nombre":"Saber gestionar las dependencias que necesitas","cursos":"4"},
+                    {"id":2,"checked":true,"nombre":"Fundamentos patrón MVC (controladores, vistas)","cursos":"4"},
+                    {"id":3,"checked":true,"nombre":"Tener claro que va en un controlador, en el servicio y en el repository","cursos":"4"},
+                    {"id":4,"checked":true,"nombre":"Tener claro que va en un que domime ","cursos":"4"},
+                    {"id":5,"checked":true,"nombre":"Las anotaciones @service, @controller, @repository","cursos":"4"}
                 ]
             },
             {
                 "id":3,
                 "nombre":"Spring Alto",
                 "capacidades":[
-                    {"id":1,"checked":true,"nombre":"Saber implementar las coleciones(mapas, listas, sets)","cursos":"4"},
-                    {"id":2,"checked":true,"nombre":"saber Manejar de paquetes en el proyecto","cursos":"4"},
-                    {"id":3,"checked":true,"nombre":"Saber realizar operaciones con strings","cursos":"4"},
-                    {"id":4,"checked":true,"nombre":"Conocer y saber implementar expresiones regulares (basicas)","cursos":"4"}
+                    {"id":1,"checked":true,"nombre":"saber generar el arifatory final utilizando gradle o maven","cursos":"4"}
                 ]
             },
             
             { "id":4,
                 "nombre":"Spring Superior",
                 "capacidades":[
-                    {"id":1,"checked":true,"nombre":"Manejo de exepciones verificables con try catch básico","cursos":"4"},
-                    {"id":2,"checked":true,"nombre":"Manejo de archivo (lectura y escritura)","cursos":"4"},
-                    {"id":3,"checked":true,"nombre":"saber utilizar el operador ternario","cursos":"4"},
-                    {"id":4,"checked":true,"nombre":"Saber realizar operaciones con fechas","cursos":"4"}
+                    {"id":1,"checked":true,"nombre":"configuración de Spring (.yml o .properties) para accesos a base de datos","cursos":"4"},
+                    {"id":2,"checked":true,"nombre":"Context path, scopes y autowiring","cursos":"4"},
+                    {"id":3,"checked":true,"nombre":"@configuration,@controller y @restcontroller","cursos":"4"},
+                    {"id":4,"checked":true,"nombre":"(JDBC, JPA, HIBERNATE) que sepa mapear una tabla","cursos":"4"}
+
+                    
+
+
+
                 ]
             }
         ]
